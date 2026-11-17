@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Clearview: a fast, accessible, read-only frontend for make.fun bounties, leaderboards and profiles.">
+<title>Clearview — make.fun, clearly</title>
+<link rel="stylesheet" href="/style.css">
+<script type="module" src="/main.js"></script>
+</head>
+<body>
+<a class="skip" href="#main" id="skip-link">Skip to main content</a>
+<header class="site-head">
+  <div class="wrap head-in">
+    <a class="brand" href="#/" aria-label="Clearview home">
+      <span class="brand-mark" aria-hidden="true">◉</span> Clearview
+    </a>
+    <nav class="site-nav" aria-label="Primary">
+      <a href="#/">Bounty board</a>
+      <a href="#/about">About</a>
+      <a href="https://make.fun" rel="noopener">make.fun ↗</a>
+    </nav>
+  </div>
+</header>
+<main id="main" class="wrap" tabindex="-1">
+  <p class="status" role="status">Loading live bounties…</p>
+</main>
+<footer class="site-foot">
+  <div class="wrap">
+    <p>Clearview is an independent, read-only client for <a href="https://make.fun" rel="noopener">make.fun</a>.
+    Data comes from the public make.fun API and refreshes as you browse. No sign-in, no tracking, no build step.</p>
+  </div>
+</footer>
+</body>
+</html>
